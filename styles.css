@@ -1,15 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-a {
+.dark-bg a {
     text-decoration: none;
+    color: white
 }
 
 .dark-bg {
     background-color: #1F2937;
+    color: white;
 }
 
 .quote-bg {
@@ -17,12 +27,13 @@ a {
 }
 
 .section {
+    padding: 24px;
     display: flex;
     justify-content: center;
 }
 
 .section-content {
-    flex: 0 1 1024px;
+    width: 1024px;
     display: flex;
     justify-content: space-between;
 }
