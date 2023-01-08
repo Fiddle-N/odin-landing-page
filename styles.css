@@ -4,6 +4,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    min-width: 650px;
 }
 
 ul {
@@ -25,15 +26,16 @@ a {
 }
 
 .section {
-    padding: 24px;
     display: flex;
     justify-content: center;
 }
 
 .section-content {
-    width: 1024px;
+    padding: 24px;
+    width: 1064px;
     display: flex;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
 
 .logo {
@@ -50,4 +52,30 @@ a {
 .header-links {
     display: flex;
     gap: 24px;
+}
+
+.hero-section {
+    padding: 130px 0;
+}
+
+.hero-content {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.awesome-section {
+    width: 450px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-image {
+    width: 500px;
+    height: auto
 }
