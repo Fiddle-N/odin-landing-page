@@ -12,14 +12,12 @@ ul {
     list-style-type: none;
 }
 
-.dark-bg a {
+a {
     text-decoration: none;
-    color: white
 }
 
 .dark-bg {
     background-color: #1F2937;
-    color: white;
 }
 
 .quote-bg {
@@ -38,3 +36,18 @@ ul {
     justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-links a, .hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+}
