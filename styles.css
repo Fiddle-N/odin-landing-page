@@ -8,11 +8,6 @@ a {
     text-decoration: none;
 }
 
-.section {
-    display: flex;
-    justify-content: center;
-}
-
 .dark-bg {
     background-color: #1F2937;
 }
@@ -20,3 +15,15 @@ a {
 .quote-bg {
     background-color: #E5E7EB;
 }
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-content {
+    flex: 0 1 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
