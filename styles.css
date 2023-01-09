@@ -4,7 +4,7 @@
 
 body {
     font-family: Roboto, sans-serif;
-    min-width: 650px;
+    min-width: 1060px;
 }
 
 ul {
@@ -15,6 +15,17 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #3882F6;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 7px;
+    margin-top: 12px;
 }
 
 .dark-bg {
@@ -32,10 +43,10 @@ a {
 
 .section-content {
     padding: 24px;
-    width: 1064px;
+    width: 1060px;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    align-items: center;
 }
 
 .logo {
@@ -60,9 +71,7 @@ a {
 
 .hero-content {
     display: flex;
-    gap: 64px;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .awesome-section {
