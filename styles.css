@@ -60,13 +60,14 @@ a {
 
 .hero-content {
     display: flex;
-    gap: 40px;
+    gap: 64px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .awesome-section {
     width: 450px;
+
 }
 
 .hero-text {
