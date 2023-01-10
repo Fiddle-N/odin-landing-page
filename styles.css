@@ -25,6 +25,7 @@ button {
     font-weight: bold;
     padding: 7px 33px;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .blue-bg {
@@ -178,9 +179,10 @@ button {
 
 .action-card {
     display: flex;
-    gap: 160px;
+    width: 1060px;
     padding: 54px 120px;
     border-radius: 7px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -191,7 +193,7 @@ button {
 }
 
 .action-subtext {
-    font-size: 20px;
+    font-size: 19.5px;
     color: #E5E7EB
 }
 
